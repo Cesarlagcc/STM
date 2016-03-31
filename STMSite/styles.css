@@ -1,0 +1,269 @@
+    body{
+        background-color:white;
+        xfont-family:serif;
+        font-size:1.1em;
+        margin:0 auto;
+    }
+
+br{line-height:-2px;
+}
+
+h1{
+   font-family: 'Oswald', sans-serif;
+    text-shadow: 0px 2px 10px gray;
+}
+    
+    #header{
+        background-color:#e7e7e7;
+        xpadding-top: 50px;
+        xline-height: 20px;
+        xpadding-bottom: 50px;
+        width: 100%;
+        height:;
+        border-bottom: 2px inset #333;
+        text-decoration-line:underline;
+        xbox-shadow: 1px 1px 5px 1px #333;
+        color:;
+        font-size: 50px;
+        xoverflow:auto;
+        text-align: right;
+        font-family: 'Righteous';
+    }
+    
+    #wrapper{
+        height:;
+        margin-left:auto;
+        margin-right:auto;
+        position:relative;
+    }
+    
+    #main-one{
+        xbackground-color:#B5B3B5;
+        height:;
+        background-color:white;
+        overflow: auto;
+        padding:10px 10px;
+    }
+     
+   
+    #text1{
+      float: right;
+      width: 50%;
+      overflow:auto;
+      background-color:hsl(0, 0%, 96%);
+      font-family: 'Lato', sans-serif;
+      border-top: 1px solid black;
+      border-bottom:1px solid black;
+      font-weight:lighter;
+    }
+
+img{
+    width: 500px;
+    xmargin-left:20px; 
+}
+
+#sub-one{
+   background:;
+    max-height:900px;
+    overflow:auto;
+    font-family: 'Abel', sans-serif;
+    position: relative;
+}
+
+
+.bgImageContainer{
+    background-image:url(images/LibraryLAB.jpg);
+    width:100%;
+    height:890px;
+    filter: blur(4px);
+    -webkit-filter:blur(4px);
+    z-index: 0;
+    position: relative;
+    overflow:auto;
+    background-size:cover;
+    float: none;
+}
+
+.libtext{
+    z-index:10;
+    position: absolute;
+    xdisplay:block;
+    background: rgba(255, 255, 255, 0.85);
+    xmargin-top:200px;
+    xmargin:10px auto;
+    text-indent: 20px;
+    margin-left:60px;
+    margin-right: 60px;
+    border-radius:8px;
+    bottom:0px;
+    left: 0;
+    right:0;
+    margin-bottom:5%;
+    padding:10px;
+    font-weight:bolder;
+}
+
+
+
+#threesub{
+    background-color:;
+    height:;
+     
+}
+#flip1,#panel1,#flip2,#panel2,#flip3,#panel3,#flip4,#panel4{
+    margin:0 auto;
+    display: block;
+    box-shadow: 0px 2px 1px 1px #ebebeb;
+    font-family:sans-serif;
+    font-weight: lighter;
+    
+}
+
+#panel1,#panel2,#panel3,#panel4{
+    font-family: 'Abel', sans-serif;
+}
+
+/*#flip1,#panel1{
+    margin:0 auto;
+}*/
+
+/*#flip2,#panel2{
+    margin:0 auto;
+}*/
+
+
+#flip1{
+    background-color:#a0a0a0;
+    padding:10px;
+    width:97%;
+    border-radius:3px;
+    cursor: pointer;
+    font-size:25px;
+    text-indent: 10px;
+}
+
+
+#panel1{
+    display:none;
+    padding: 10px;
+    background-color:lightgrey;
+    width: 95%;
+    border-radius:2px;
+}
+/*this is where the second toggle stars*/
+#flip2{
+    background-color:lightgrey;
+    padding:10px;
+    width:97%;
+    border-radius:1px;
+    cursor: pointer;
+    font-size:25px;
+    text-indent: 10px;
+}
+
+
+#panel2{
+  display:none;
+  background-color:#a0a0a0;
+  width: 95%;
+  padding:10px;
+  border-radius:2px;
+}
+
+#flip3{
+    background-color: #a0a0a0;
+    width:97%;
+    padding:10px;
+    font-size:25px;
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+#panel3{
+    background-color:lightgrey;
+    width: 95%;
+    padding:10px;
+    display: none;
+    border-radius:2px;
+    
+}
+
+#flip4{
+    background-color:lightgray;
+    width: 97%;
+    padding:10px;
+    font-size:25px;
+    border-radius:1px;
+    cursor: pointer;
+}
+
+#panel4{
+    display:none;
+    width: 95%;
+    background-color:darkgray;
+    padding:10px;
+    
+}
+
+#flex{
+    width:100%;
+    xheight: 200px;
+    margin:0 auto;
+    display: flex;
+    xflex-direction:column;
+    flex-basis:2;
+    flex: 1;
+    font-family: 'Oswald', sans-serif;
+}
+
+#flex div {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */    
+    flex: 1;
+    flex-basis:10px;
+    flex-shrink: 2; 
+}
+
+.flex1{
+    text-align: center;
+}
+
+#comp-img{
+    display: block;
+    margin: 10px auto;
+    width:70%;
+}
+
+.flex2{
+    xborder: 1px solid red;
+    border-left:5px solid #a0a0a0; 
+    text-indent: 10px;
+    text-align: center;
+}
+
+.flex3{
+    border-left:5px solid #a0a0a0;
+    text-align: center;
+}
+
+#trio-img{
+    width: 70%;
+    display: block;
+    margin:10px auto;
+}
+
+#help-img{
+    width:70%;
+    display: block;
+    margin: 10px auto;
+}
+
+.down-arrow{
+    border-color: black transparent;
+	border-style: solid;
+	border-width: 9px 5px 0px 5px;
+    position: relative;
+	width: 0px;
+    top: 23px;
+    left:10px;
+}
