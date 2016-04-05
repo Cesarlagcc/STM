@@ -352,7 +352,7 @@ input, textarea {
     border-radius:2px;
 }
 
-@media (min-width:320px) {
+@media (max-width:320px) {
     #header{
         clear: both;
         text-align: center;
