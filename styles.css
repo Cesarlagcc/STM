@@ -394,14 +394,14 @@ input, textarea {
         xmargin-bottom:-1500px;
         margin:0 10px;
         position: absolute;
-        height:1540px;
+        height:1440px;
         
        
     }
     
     #sub-one{
         overflow: hidden;
-        min-height:1600px;
+        min-height:1900px;
         width: 100%;
     }
     
