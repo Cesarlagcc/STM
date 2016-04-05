@@ -366,7 +366,7 @@ input, textarea {
     
     #sub-one{
         width:100%;
-        max-height: 1800px;
+        min-height: 2000px;
     }
     
 }/*end of 320media */
