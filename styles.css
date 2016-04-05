@@ -356,7 +356,7 @@ input, textarea {
 
 /*this is where the media queries start*/
 
-@media (max-width: 380px) { 
+@media (max-width: 280px) { 
     #header{
         clear: both;
         text-align: center;
