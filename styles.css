@@ -352,6 +352,61 @@ input, textarea {
     border-radius:2px;
 }
 
+/*this is where the smallest query goes*/
+@media (max-width: 280px) { 
+    #header{
+        clear: both;
+        text-align: center;
+        font-size:3em;
+    }
+    
+    
+    img{
+        width: 100%;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        }
+    
+    #text1{
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+    
+    .bgImageContainer{
+        xheight:200;
+        position: relative;
+        xdisplay: block;
+        height:2300px;
+        
+        
+    }
+    
+    .libtext{
+        font-size:15px;
+        top:150px;
+        xbottom:200px;
+        xheight:2000px;
+        xmargin-bottom:-1500px;
+        margin:0 10px;
+        position: absolute;
+        height:1440px;
+        
+       
+    }
+    
+    #sub-one{
+        overflow: hidden;
+        min-height:1600px;
+        width: 100%;
+    }
+    
+    h1{
+        font-size:25px;
+    }
+
+
 
 
 
