@@ -364,6 +364,10 @@ input, textarea {
         margin:0 auto;
     }
     
+    #sub-one{
+        display:none;
+    }
+    
 }/*end of 320media */
 
 
