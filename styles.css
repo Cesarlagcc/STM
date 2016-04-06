@@ -352,26 +352,6 @@ input, textarea {
     border-radius:2px;
 }
 
-@media (max-width:320px) {
-    #header{
-        clear: both;
-        text-align: center;
-        font-size:1em;
-    }
-    
-    img{
-        width:100%;
-        margin:0 auto;
-    }
-    
-    
-    #sub-one{
-        width:100%;
-        min-height: 2000px;
-    }
-    
-}/*end of 320media */
-
 
 
 /*this is where the media queries start*/
