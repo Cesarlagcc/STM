@@ -357,7 +357,7 @@ input, textarea {
 
 /*this is where the media queries start*/
 
-@media screen(max-)
+
 
 
 @media screen and (max-device-width:380px){
@@ -410,7 +410,7 @@ input, textarea {
     }
     
     #sub-one{
-        overflow: hidden;
+        xoverflow: hidden;
         min-height:1800px;
         width: 100%;
         xheight:50%;
