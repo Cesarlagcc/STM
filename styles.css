@@ -401,14 +401,14 @@ input, textarea {
         xmargin-bottom:-1500px;
         margin:0 10px;
         position: absolute;
-        height:1440px;
+        height:1840px;
         
        
     }
     
     #sub-one{
         overflow: hidden;
-        min-height:1900px;
+        min-height:1800px;
         width: 100%;
         height:50%;
     }
