@@ -356,11 +356,12 @@ input, textarea {
 
 /*this is where the media queries start*/
 
-@media (max-width: 380px) { 
+@media (min-width: 380px) { 
     #header{
-        clear: both;
+        xclear: both;
         text-align: center;
         font-size:3em;
+        width:100%;
     }
     
     
