@@ -60,7 +60,7 @@ h1{
     }
 
 img{
-    width: 500px;
+    width:40%;
     xmargin-left:20px; 
 }
 
@@ -356,11 +356,19 @@ input, textarea {
 
 
 /*this is where the media queries start*/
+@media only screen and 
+        (-webkit-min-device-pixel-ratio: 1.5), only screen and 
+        (-o-min-device-pixel-ratio: 3/2), only screen and 
+        (min-device-pixel-ratio: 1.5) {
+
+        display:none;
+}
 
 
-@media screen and (max-device-width:380px){
+
+/*@media screen (max-device-width:768px){
     body{
-       display: none;
+       
     }
     
     #header{
@@ -368,7 +376,6 @@ input, textarea {
         text-align: center;
         font-size:3em;
         width:100%;
-        
     }
     
     
@@ -418,7 +425,7 @@ input, textarea {
         font-size:25px;
     }
     
-}
+}*/
 
 
 
