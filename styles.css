@@ -60,7 +60,7 @@ h1{
     }
 
 img{
-    width:400px;
+    width:500px;
     xmargin-left:20px; 
 }
 
@@ -375,6 +375,7 @@ input, textarea {
         width:80%;
         left:10%;
         right:0px;
+        margin-bottom: 10px;
         }
     
     #text1{
@@ -391,31 +392,55 @@ input, textarea {
     #main-one{
         clear: both;
         width:100%;
-        
+       
     }
     
-    libtext{
+    #sub-one{
+        height:900px;
+        overflow-y:visible;
+        width: 100%;
+    }
+    
+    .libtext{
     z-index:10;
-    position: relative;
-    xdisplay:block;
+    position: absolute;
+    display:block;
     background: rgba(255, 255, 255, 0.85);
-    xmargin-top:200px;
     xmargin:10px auto;
     text-indent: 20px;
-    margin-left:60px;
-    margin-right: 60px;
-    border-radius:8px;
-    bottom:0px;
-    left: 10;
-    right:0;
-    margin-bottom:5%;
-    padding:10px;
+    xmargin-left:0px;
+    margin-left:0;
+    margin-right:0;
+    xmargin-right: 60px;
+    xborder-radius:40px;
+    bottom:auto;
+    xleft:10;
+    xright:-100px;
+    xpadding:10px;
     font-weight:bolder;
     font-size: 18px;
+    width: 100%;
+    top:100px;
+    
+   
+}
+    
+    .bgImageContainer{
+    background-image:url(images/LibraryLAB.jpg);
+    width:100%;
+    height:1000px;
+    filter: blur(4px);
+    -webkit-filter:blur(4px);
+    z-index: 0;
+    xposition: relative;
+    xoverflow:auto;
+    xbackground-size:;
+    float: none;
 }
             
-    
     }
+
+
     @media only screen and (min-width:1440px){
         /* styles for browsers larger than 1440px; */
     }
