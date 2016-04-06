@@ -356,7 +356,10 @@ input, textarea {
 
 /*this is where the media queries start*/
 
-@media (max-width: 400px) { 
+@media (width:300px) { 
+    body{
+    display: none;
+    }
     
     #header{
         clear: both;
