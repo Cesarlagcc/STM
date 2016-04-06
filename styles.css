@@ -395,7 +395,7 @@ input, textarea {
     
     .libtext{
         font-size:15px;
-        top:180px;
+        top:150px;
         xbottom:200px;
         xheight:2000px;
         xmargin-bottom:-1500px;
@@ -408,7 +408,7 @@ input, textarea {
     
     #sub-one{
         overflow: hidden;
-        min-height:1600px;
+        min-height:1900px;
         width: 100%;
         height:50%;
     }
