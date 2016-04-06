@@ -357,7 +357,10 @@ input, textarea {
 
 /*this is where the media queries start*/
 
-@media screen and (max-width:380px){
+@media screen(max-)
+
+
+@media screen and (max-device-width:380px){
     body{
         
     }
@@ -401,7 +404,7 @@ input, textarea {
         xmargin-bottom:-1500px;
         margin:0 10px;
         position: absolute;
-        height:1600px;
+        height:1650px;
         
        
     }
