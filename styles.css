@@ -365,7 +365,7 @@ input, textarea {
     }
     
     .libtext{
-        height:1500px;
+        display: none;
     }
     
     #sub-one{
