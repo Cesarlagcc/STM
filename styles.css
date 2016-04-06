@@ -60,7 +60,7 @@ h1{
     }
 
 img{
-    width:40%;
+    width:400px;
     xmargin-left:20px; 
 }
 
@@ -356,17 +356,90 @@ input, textarea {
 
 
 /*this is where the media queries start*/
-@media only screen and 
-        (-webkit-min-device-pixel-ratio: 1.5), only screen and 
-        (-o-min-device-pixel-ratio: 3/2), only screen and 
-        (min-device-pixel-ratio: 1.5) {
-            
-            img{
-                width:100%;
-            }
-            
-            body{display:none;}
+
+
+@media only screen and (max-width:960px){
+        /* styles for browsers larger than 960px; */
+    
+    #header{
+        text-align: center;
+    }
+    
+    body{
+        
+    }
+    
+    
+    img{
+        position: relative;
+        width:80%;
+        left:10%;
+        right:0px;
+        }
+    
+    #text1{
+      float: right;
+      width: 100%;
+      overflow:auto;
+      background-color:hsl(0, 0%, 96%);
+      font-family: 'Lato', sans-serif;
+      border-top: 1px solid black;
+      border-bottom:1px solid black;
+      xfont-weight:bold;
+    }
+    
+    #main-one{
+        clear: both;
+        width:100%;
+        
+    }
+    
+    libtext{
+    z-index:10;
+    position: relative;
+    xdisplay:block;
+    background: rgba(255, 255, 255, 0.85);
+    xmargin-top:200px;
+    xmargin:10px auto;
+    text-indent: 20px;
+    margin-left:60px;
+    margin-right: 60px;
+    border-radius:8px;
+    bottom:0px;
+    left: 10;
+    right:0;
+    margin-bottom:5%;
+    padding:10px;
+    font-weight:bolder;
+    font-size: 18px;
 }
+            
+    
+    }
+    @media only screen and (min-width:1440px){
+        /* styles for browsers larger than 1440px; */
+    }
+    @media only screen and (min-width:2000px){
+        /* for sumo sized (mac) screens */
+        
+    }
+    @media only screen and (min-device-width:480px){
+       /* styles for mobile browsers smaller than 480px; (iPhone) */
+        
+        
+}
+    
+    @media only screen and (device-width:768px){
+       /* default iPad screens */
+    }
+    /* different techniques for iPad screening */
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+      /* For portrait layouts only */
+    }
+
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+      /* For landscape layouts only */
+    }
 
 
 
