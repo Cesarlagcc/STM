@@ -360,8 +360,7 @@ input, textarea {
 
 @media screen and (max-device-width:380px){
     body{
-        width:100%;
-        margin:0 auto;
+       display: none;
     }
     
     #header{
